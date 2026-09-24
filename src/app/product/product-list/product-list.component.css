@@ -1,0 +1,22 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    width: 100%;
+}
+
+mat-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+mat-card {
+    transition: transform .2s;
+}
+
+.sort-dropdown{
+    margin-left: 20px;
+}
